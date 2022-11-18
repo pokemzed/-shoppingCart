@@ -1,0 +1,22 @@
+:root{
+    --color-ligth: rgb(241, 241, 241);
+    --color-white: #fff;
+    --color-gray: #333;
+    --color-medium: rgb(216, 216, 216);
+
+    --spasing-small: 10px;
+    --spasing-medium: 15px;
+    --spasing-large: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 120%;
+    background-color: var(--color-ligth);
+}
